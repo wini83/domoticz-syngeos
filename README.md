@@ -1,5 +1,8 @@
-# domoticz-airly
-A Python plugin for Domoticz to access airly api for smog data in Poland
+# domoticz-syngeos
+A Python plugin for Domoticz to access syngeos api for smog data in Poland
+Based on plugin lrybak/domoticz-airly
+
+#Plugin in development, not ready for use
 
 ## Installation
 * Plugin works with Domoticz stable v4.9700. If you face any bug please don't hesistate to report an issue.
@@ -8,7 +11,8 @@ A Python plugin for Domoticz to access airly api for smog data in Poland
 * Get plugin data into DOMOTICZ/plugins directory
 ```
 cd YOUR_DOMOTICZ_PATH/plugins
-git clone https://github.com/lrybak/domoticz-airly
+git clone https://github.com/lwini83/domoticz-syngeos
+
 ```
 * Restart Domoticz
 * Go to Setup > Hardware and create new Hardware with type: domoticz-airly
@@ -20,7 +24,7 @@ You can add more station to lookup - create another plugin (hardware) instance
 
 ## Update
 ```
-cd YOUR_DOMOTICZ_PATH/plugins/domoticz-airly
+cd YOUR_DOMOTICZ_PATH/plugins/domoticz-syngeos
 git pull
 ```
 * Restart Domoticz
